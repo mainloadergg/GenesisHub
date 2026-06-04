@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/GENESIS%20HUB-FF6B35?style=for-the-badge&logo=roblox&logoColor=white&labelColor=1a1a2e">
+<img src="https://raw.githubusercontent.com/mainloadergg/GenesisHub/refs/heads/main/script_logo.png">
 
 **King Legacy Auto Farm | Sea Events | Raid Bosses | Smart Hop**
 
