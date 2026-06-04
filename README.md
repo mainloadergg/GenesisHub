@@ -180,7 +180,6 @@ local GenesisX = loadstring(game:HttpGet("https://raw.githubusercontent.com/main
 |---------|-------------|
 | **Anti-AFK** | Prevents kick for inactivity |
 | **Auto Play** | Automatically clicks the play button on loading screen |
-| **Noclip** | Enabled during conquest to prevent getting stuck |
 | **Proximity Prompt Instant** | All proximity prompts have 0 hold duration |
 | **Smart Positioning** | Calculates optimal attack positions to avoid detection |
 
@@ -197,7 +196,7 @@ local GenesisX = loadstring(game:HttpGet("https://raw.githubusercontent.com/main
 
 **Made with ⚔️ for the King Legacy community**
 
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/yourserver)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/5nVtrr5Hd3)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mainloadergg)
 
 </div>
