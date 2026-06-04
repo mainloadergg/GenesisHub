@@ -2,11 +2,11 @@
 
 <img src="https://raw.githubusercontent.com/mainloadergg/GenesisHub/refs/heads/main/script_logo.png">
 
-**King Legacy Auto Farm | Sea Events | Raid Bosses | Smart Hop**
+**GENESIS HUB**
 
 [![Roblox](https://img.shields.io/badge/Roblox-000000?style=flat-square&logo=roblox&logoColor=white)](https://www.roblox.com)
 [![King Legacy](https://img.shields.io/badge/Game-King%20Legacy-FF6B35?style=flat-square)](https://www.roblox.com/games/4520749081)
-[![Version](https://img.shields.io/badge/Version-3.0-00D9FF?style=flat-square)]()
+[![Version](https://img.shields.io/badge/Version-3.2-00D9FF?style=flat-square)]()
 
 </div>
 
