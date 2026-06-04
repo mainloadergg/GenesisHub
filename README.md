@@ -84,7 +84,7 @@ Genesis Hub is a powerful, feature-rich automation script for **King Legacy** on
 ### 🌐 Server System
 | Feature | Description |
 |---------|-------------|
-| **Smart Hop (Premium)** | Hops to servers with selected events/raid bosses using Supabase database |
+| **Smart Hop (Premium)** | Hops to servers with selected events/raid bosses |
 | **Random Server Hop** | Standard random server hop with configurable timer |
 | **Live Server List** | Browse and join servers with active events in real-time |
 | **Job ID System** | Copy current Job ID or join specific servers via encoded ID |
@@ -158,19 +158,7 @@ local GenesisX = loadstring(game:HttpGet("https://raw.githubusercontent.com/main
 -- 1. Create the UI window
 -- 2. Load your saved settings
 -- 3. Start all enabled automation loops
--- 4. Connect to the server database for Smart Hop
 ```
-
----
-
-## ⚙️ Configuration
-
-Settings are automatically saved to:
-```
-Workspace/SpectrumX/Saves/GenesisHub_KingLegacy.json
-```
-
-All toggles, sliders, dropdowns, and inputs persist between sessions.
 
 ---
 
@@ -186,60 +174,6 @@ All toggles, sliders, dropdowns, and inputs persist between sessions.
 
 ---
 
-## 🌐 Supported Places
-
-| Sea | Place ID | Level Range |
-|-----|----------|-------------|
-| **First Sea** | `4520749081` | 1 - 2200 |
-| **Second Sea** | `6381829480` | 2250 - 3975 |
-| **Third Sea** | `15759515082` | 4000+ |
-
----
-
-## 📡 Smart Hop (Premium)
-
-The Smart Hop system connects to a Supabase database to find servers with active events:
-
-```
-┌─────────────────────────────────────────────┐
-│  Target Sea Events: [Serpent, Hydra, ...]   │
-│  Target Raid Bosses: [King Samurai, ...]    │
-│                                              │
-│  [✓] Smart Hop (Event Servers Only)          │
-│  Delay: [==========] 30 seconds              │
-└─────────────────────────────────────────────┘
-```
-
-**How it works:**
-1. Select target events/raid bosses
-2. Enable Smart Hop
-3. If no selected event is found within the delay timer, the script queries the database
-4. Automatically teleports to the server with the most recent matching event
-
----
-
-## 🔔 Webhook Notifications
-
-Genesis Hub supports Discord webhooks for event notifications:
-
-- 🐍 **Serpent** (Sea 1)
-- 🌊 **Sea King** (Sea 2)
-- 🐍 **Hydra** (Sea 2)
-- 👻 **Ghost Ship** (Sea 2)
-- ⚔️ **Sea Events** (Sea 3)
-- 🚢 **Galleon** (Sea 3)
-- 🏝️ **Race Island**
-- 🍎 **Fruits**
-- 🦕 **Raid Bosses**
-
-Each webhook includes:
-- Event name
-- Player count
-- Encoded Job ID (for PC)
-- Raw Job ID (for Mobile)
-
----
-
 ## 🛡️ Safety Features
 
 | Feature | Description |
@@ -252,40 +186,10 @@ Each webhook includes:
 
 ---
 
-## 📝 Changelog
-
-### v3.0
-- Added Third Sea full support (Sea 3)
-- New Smart Hop system with Supabase integration
-- Live server browser with real-time filters
-- Auto Daily Quest system
-- Pearl collection automation
-- Pteranodon raid boss support
-- Improved Sea Events bypass system
-- Custom animation setter
-- Legacy Pose unlocker
-
-### v2.5
-- Added Auto Third Sea progression
-- Kraken summon automation
-- Conquest flag capture system
-- Passive rolling with targeting
-- Material dealer auto-buy
-
-### v2.0
-- Complete UI overhaul with GenesisX
-- Smart Hop premium feature
-- Ghost Ship auto-loot
-- Sea King & Hydra timer system
-- Fishing automation with perfect catch
-
----
-
 ## 🤝 Credits
 
-- **UI Library**: GenesisX (formerly SpectrumX)
-- **Game**: King Legacy by Venture Lagoons
-- **Database**: Supabase
+- **UI Library**: GenesisX
+- **Game**: King Legacy
 
 ---
 
